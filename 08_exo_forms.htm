@@ -1,0 +1,40 @@
+<title>Formulaire</title>
+
+<!--Get ou Post-->
+<form method="get">
+    <!--Nom-->
+    <label for="name">Nom :</label><br />
+    <input type="text" placeholder="Nom"><br />
+    <!--Date-->
+    <label for="name">Prénom :</label><br />
+    <input type="text" placeholder="Prénom"><br />
+    <!--URL-->
+    <label for="url">URL du site Obligatoire</label><br/>
+    <input type="url" name="url" id="url" placeholder="Lien"><br/>
+    <!--Radio-->
+    <fieldset>
+        <legend>Choisir une option:</legend>
+      
+        <div>
+          <label for="choix1">Choix 1</label>
+          <input type="radio" id="choix1" name="drone" value="choix1" checked />
+        </div>
+      
+        <div>
+          <input type="radio" id="choix2" name="drone" value="choix2" />
+          <label for="choix2">Choix 2</label>
+        </div>
+      
+        <div>
+          <input type="radio" id="choix3" name="drone" value="choix3" />
+          <label for="choix3">Choix 3</label>
+        </div>
+      </fieldset>
+      
+    <!--Textarea-->
+    <label for="paragraphe">Votre Message :</label><br />
+    <textarea height="100" id="paragraphe" name="paragraphe"></textarea><br />
+
+    <!--Submit-->
+    <input type="submit" value="Envoyer">
+</form>

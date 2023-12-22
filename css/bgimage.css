@@ -1,0 +1,8 @@
+.box_a {
+    background-image: url(Image/ballon.jpg);
+}
+
+.box_b {
+    background-image: url(Image/etoile.png);
+    background-repeat: no-repeat;
+}
